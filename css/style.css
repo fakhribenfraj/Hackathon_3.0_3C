@@ -1,3 +1,23 @@
+/*============================
+	Fonts :
+		Raleway
+		Open Sans
+------------------------------
+	Colors :
+		Tangaroa : #081015
+		Sapphire : #053951
+		Shakespeare : #6FA0B7
+		Spray : #8FC6E0
+		Pattens Blue : #E1EBF2
+=============================*/
+/*=============================
+		HTML and Body
+=============================*/
+html,body{height: 100%;}
+body{color: #333333; position: relative; background-color: #D3D3D3;}
+h1,h2,h3,h4,h5,h6{font-family: "Raleway", sans-serif;}
+p{font-family: "Open Sans", sans-serif; font-size: 13px; font-weight: 400; line-height: 24px;}
+section{background: #FFFFFF; overflow: hidden;}
 /*=============================
 		Preloader
 =============================*/
@@ -23,3 +43,66 @@
 	margin-top: -40px;
 	margin-left: -40px;
 }
+/*=============================
+		Navigation
+=============================*/
+.navbar
+{
+	padding: 35px 0 20px 0;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+.site-nav-wrapper
+{
+	padding: 0 85px;
+}
+.navbar-brand
+{
+	padding: 13px 15px;
+}
+.navbar img
+{
+	margin-left: 50px;
+}
+ul.navbar-nav > li > a
+{
+	font-family: "Raleway", sans-serif;
+	color: #333;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus
+{
+	color: #6FA0B7;
+}
+/* White Navigation on Scroll 
+.white-nav-top
+{
+	background: #FFFFFF;
+	padding: 0 0;
+	-webkit-box-shadow: 0 8px 6px -9px #999999;
+	box-shadow: 0 8px 6px -9px #999999;
+	z-index: 2;
+}
+.white-nav-top ul.navbar-nav > li > a
+{
+	color: #212226;
+}
+.white-nav-top ul.navbar-nav > li > a:hover,
+.white-nav-top ul.navbar-nav > li > a:focus
+{
+	color: #00A8E8;
+}*/
+/* Scroll Spy Active State 
+.white-nav-top ul.navbar-nav > li.active > a
+{
+	color: #00A8E8;
+	font-weight: 500;
+}
+ul.navbar-nav > li > a.active
+{
+	color: #00A8E8;
+}*/
